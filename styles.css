@@ -13,7 +13,7 @@ body {
 
 header {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     color: white;
     text-shadow: 2px 2px gray;
     /* https://uigradients.com/#AquaMarine */
@@ -29,12 +29,26 @@ nav {
     text-align: center;
 }
 
-nav a {
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li a {
     padding: 10px 20px;
     margin: 0 10px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+nav a:hover {
+    color: gray;
 }
 
 main {
