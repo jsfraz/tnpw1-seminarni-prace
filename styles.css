@@ -1,0 +1,47 @@
+/* Resetování marginů a paddingu pro všechny elementy */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer,
+nav {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
