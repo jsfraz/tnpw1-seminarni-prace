@@ -1,0 +1,47 @@
+/* Resetting margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #352F44;
+    color: white;
+}
+
+nav {
+    background-color: #5C5470;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #B9B4C7;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #B9B4C7;
+    color: #352F44;
+}
