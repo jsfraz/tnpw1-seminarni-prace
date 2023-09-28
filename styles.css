@@ -9,11 +9,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+    /* https://uigradients.com/#ColorsOfSky */
+    background: -webkit-linear-gradient(to right, #e0eafc, #cfdef3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header {
     text-align: center;
-    padding: 30px;
+    padding: 35px;
     color: white;
     text-shadow: 2px 2px gray;
     /* https://uigradients.com/#AquaMarine */
@@ -52,7 +57,6 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
     flex: 1;
 }
 
@@ -76,4 +80,106 @@ footer a:link {
 
 .footer-sloupec {
     margin: 0 10px;
+}
+
+.it {
+    /* https://www.limestone.edu/blog/what-does-computer-programmer-do */
+    background-image: url("https://www.limestone.edu/sites/default/files/styles/news_preview_image/public/2022-03/computer-programmer.jpg?h=2d4b268f&itok=JOcIEe9u");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-color: #1a2980;
+}
+
+.splash {
+    font-size: 400%;
+    color: white;
+    text-shadow: 3px 3px gray;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.why {
+    font-size: 250%;
+    color: #1a2980;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.flip-container {
+    perspective: 1000px;
+    margin: 30px;
+    float: left;
+}
+
+.flipper {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    width: 400px;
+    height: 200px;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    /* https://uigradients.com/#Hydrogen */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.front {
+    font-size: 1.25em;
+}
+
+.back {
+    transform: rotateY(180deg);
+    font-size: 0.9em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    .splash {
+        font-size: 250%;
+    }
 }
