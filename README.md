@@ -1,6 +1,6 @@
 # tnpw1-seminarni-prace
 
-Seminární práce na předmět KIT/TNPW1
+Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk.cz/fim/student/razjo1/).
 
 ## Užitečné odkazy
 
