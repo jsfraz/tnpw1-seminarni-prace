@@ -78,7 +78,7 @@ footer a:link {
     color: white;
 }
 
-.footer-sloupec {
+.footer-column {
     margin: 0 10px;
 }
 
@@ -168,6 +168,53 @@ footer a:link {
     font-size: 1.5em;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.textRight {
+    flex: 1;
+    text-align: left;
+    font-size: 275%;
+    color: #1a2980;
+    text-shadow: 2px 2px white;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.textLeft {
+    flex: 1;
+    text-align: right;
+    font-size: 275%;
+    color: #1a2980;
+    text-shadow: 2px 2px white;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.gradient-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #1a2980, transparent);
+    margin: 20px 0;
+  }
+
 @media (max-width: 768px) {
     nav ul {
         display: flex;
@@ -181,5 +228,23 @@ footer a:link {
 
     .splash {
         font-size: 250%;
+    }
+
+    .textRight {
+        font-size: 175%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .textLeft {
+        font-size: 175%;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
     }
 }
