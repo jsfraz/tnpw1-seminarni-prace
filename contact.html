@@ -8,6 +8,7 @@
     <title>TechSolutions, s.r.o.</title>
     <!-- https://icons.getbootstrap.com/icons/pc-display/ -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="form.js" defer></script>
 </head>
 
 <body>
@@ -28,8 +29,30 @@
     </nav>
     <!-- obsah -->
     <main>
-        <h2>Kontakt</h2>
-        <!-- TODO formulář -->
+        <div class="container2">
+            <div class="box">
+                <div class="title2">Kde nás najdete</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202845.20094785866!2d-122.20590340845737!3d37.40268918143354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20Kalifornie%2C%20Spojen%C3%A9%20st%C3%A1ty%20americk%C3%A9!5e0!3m2!1scs!2scz!4v1696228848235!5m2!1scs!2scz"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="box">
+                <div class="title2">Kontaktujte nás</div>
+                <form id="contactForm">
+                    <label for="name">Jméno:</label>
+                    <input type="text" name="name" placeholder="Vaše jméno" required>
+                    <br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" placeholder="Váš e-mail" required>
+                    <br><br>
+                    <label for="message">Zpráva:</label>
+                    <textarea name="message" placeholder="Vaše zpráva" required></textarea>
+                    <br><br>
+                    <button type="submit">Odeslat</button>
+                  </form>
+            </div>
+        </div>
     </main>
     <!-- patička -->
     <footer>
