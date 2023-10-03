@@ -16,5 +16,5 @@ form.addEventListener('submit', function (event) {
   form.reset();
 
   // alert
-  window.alert('Děkujeme ' + formDataObject['email'] + '!');
+  window.alert('Děkujeme ' + formDataObject['name'] + '!');
 });
