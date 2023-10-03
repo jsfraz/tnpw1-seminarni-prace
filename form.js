@@ -1,6 +1,6 @@
 const form = document.getElementById('contactForm');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
   // zamezení defaultnímu stavu události ()
   event.preventDefault();
 
@@ -12,8 +12,9 @@ form.addEventListener('submit', function(event) {
     formDataObject[key] = value;
   });
 
-  console.log(formDataObject['email'] + ': ' + formDataObject['message']);
-
   // reset formuláře
   form.reset();
+
+  // alert
+  window.alert('Děkujeme ' + formDataObject['email'] + '!');
 });
