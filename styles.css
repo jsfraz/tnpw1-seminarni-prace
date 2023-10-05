@@ -77,6 +77,10 @@ footer a:link {
     color: white;
 }
 
+footer a:visited {
+    color: white;
+}
+
 .footer-column {
     margin: 0 10px;
 }
