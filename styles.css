@@ -231,7 +231,7 @@ footer a:visited {
 }
 
 .box {
-    width: 50%;
+    width: 100%;
     height: 50%;
     text-align: center;
     display: flex;
@@ -292,6 +292,11 @@ textarea {
     resize: none;
 }
 
+.maps-iframe {
+    width: 90%;
+    height: 500px;
+}
+
 @media (max-width: 768px) {
     nav ul {
         display: flex;
@@ -326,7 +331,6 @@ textarea {
     form {
         width: 100%;
     }
-
 }
 
 @media (min-width: 768px) {
