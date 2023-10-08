@@ -21,7 +21,7 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | 2     | Konzistentní záhlaví/logo stránky                                                                                  | ✅       |
 | 3     | Konzistentní navigační oblast                                                                                      | ✅       |
 | 4     | Informativní titulek webu, který obsahuje název společnosti/webu                                                   | ✅       |
-| 5     | Oblast zápatí obsahuje informace o právech užívání (copyright), datum poslední aktualizace, kontaktní email        | ❌       |
+| 5     | Oblast zápatí obsahuje informace o právech užívání (copyright), datum poslední aktualizace, kontaktní email        | ✅       |
 | 6     | Dobré použití základních principů designu: opakování, kontrast, blízkost a zarovnání                               | ✅       |
 | 7     | Zobrazení bez vodorovného posouvání při běžném zobrazení                                                           | ✅       |
 | 8     | Rovnováha mezi textem, obrazové prvky a prázdným místem na stránce                                                 | ✅       |
@@ -38,8 +38,8 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | 14    | Konzistentní použití fontů, velikostí znaků a barev znaků                                   | ✅       |
 | 15    | Obsah dodává smysluplnou, užitečnou informaci                                               | ✅       |
 | 16    | Organizace obsahu je konzistentní                                                           | ✅       |
-| 17    | Obsah je aktuální (správné datum copyrightu nebo poslední aktualizace)                      | ❌       |
-| 18    | V obsahu nejsou překlepy a gramatické chyby                                                 | ❌       |
+| 17    | Obsah je aktuální (správné datum copyrightu nebo poslední aktualizace)                      | ✅       |
+| 18    | V obsahu nejsou překlepy a gramatické chyby                                                 | ✅       |
 | 19    | Hypertextové odkazy používají konzistentní označení pro stav odkazu (navštíven/nenavštíven) | ✅       |
 
 ### Barvy, grafika, multimédia
@@ -61,7 +61,7 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | 27    | Řádné zobrazení v aktuální verzi Google Chrome               | ❌       |
 | 28    | Řádné zobrazení na mobilu a tabletu                          | ✅       |
 | 29    | Všechny hypertextové odkazy (interní, externí) fungují       | ✅       |
-| 30    | Všechny formuláře fungují jen s využitím prohlížeče          | ❌       |
+| 30    | Všechny formuláře fungují jen s využitím prohlížeče          | ✅       |
 
 ### Přístupnost
 
