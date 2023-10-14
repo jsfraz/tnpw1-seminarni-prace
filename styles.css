@@ -312,7 +312,7 @@ td {
 }
 
 th {
-    background-color: #348ac7;
+    background-color: #1a2980;
     color: white;
 }
 
@@ -322,6 +322,17 @@ tr {
 
 tr:hover {
     background-color: #f9f9f9;
+}
+
+.gallery-image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+}
+
+.gallery-link {
+    padding: 15px;
 }
 
 @media (max-width: 768px) {
