@@ -26,7 +26,7 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | 7     | Zobrazení bez vodorovného posouvání při běžném zobrazení                                                           | ✅       |
 | 8     | Rovnováha mezi textem, obrazové prvky a prázdným místem na stránce                                                 | ✅       |
 | 9     | Informace, které se opakují (záhlaví/logo a navigace), zabírají max. třetinu okna prohlížeče při běžném zobrazení  | ✅       |
-| 10    | Domovská stránka obsahuje přitažlivé, zajímavé informace nad ohybem (t.j. bez posouvání dolů) při běžném zobrazení | ❌       |
+| 10    | Domovská stránka obsahuje přitažlivé, zajímavé informace nad ohybem (t.j. bez posouvání dolů) při běžném zobrazení | ✅       |
 | 11    | Použita metaznačka viewport pro zobrazení na mobilu                                                                | ✅       |
 | 12    | Responzivní návrh rozložení pro zobrazení na mobilu a na tabletu, nejlépe s využitím media queries                 | ✅       |
 
@@ -48,7 +48,7 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | ----- | ------------------------------------------------------------------------ | ------- |
 | 20    | Barevné schéma obsahuje max 3-4 barvy plus barvy neutrální               | ❌       |
 | 21    | Barvy jsou použity konzistentně                                          | ❌       |
-| 22    | Stránky obsahují fotogalerii                                             | ❌       |
+| 22    | Stránky obsahují fotogalerii                                             | ✅       |
 | 23    | Grafika je optimalizována pro web a načítání stránky výrazně nezpomaluje | ✅       |
 | 24    | Každý grafický prvek má jasný účel                                       | ❌       |
 
@@ -58,7 +58,7 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | ----- | ------------------------------------------------------------ | ------- |
 | 25    | Odkazy hlavní navigace jsou jasně a konzistentně pojmenovány | ✅       |
 | 26    | Navigace je snadno použitelná pro cílové publikum            | ✅       |
-| 27    | Řádné zobrazení v aktuální verzi Google Chrome               | ❌       |
+| 27    | Řádné zobrazení v aktuální verzi Google Chrome               | ✅       |
 | 28    | Řádné zobrazení na mobilu a tabletu                          | ✅       |
 | 29    | Všechny hypertextové odkazy (interní, externí) fungují       | ✅       |
 | 30    | Všechny formuláře fungují jen s využitím prohlížeče          | ✅       |
@@ -67,8 +67,8 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 
 | Číslo | Požadavek                                                                                                    | Splněno |
 | ----- | ------------------------------------------------------------------------------------------------------------ | ------- |
-| 31    | Přístupnost stránek je vyhodnocena jako dostatečná vhodným nástrojem                                         | ❌       |
-| 32    | Jestliže hlavní navigace používá obrázky nebo média, v zápatí jsou uvedeny jasné alternativní textové odkazy | ❌       |
+| 31    | Přístupnost stránek je vyhodnocena jako dostatečná vhodným nástrojem                                         | ✅       |
+| 32    | Jestliže hlavní navigace používá obrázky nebo média, v zápatí jsou uvedeny jasné alternativní textové odkazy | ✅       |
 | 33    | Navigace je strukturovaná jako neřazený seznam                                                               | ✅       |
 | 34    | Barva není výlučným nositelem sdělení (významu)                                                              | ✅       |
 | 35    | Barvy pozadí a textu jsou dostatečně kontrastní                                                              | ✅       |
@@ -79,8 +79,8 @@ Seminární práce na předmět KIT/TNPW1. [Funkční stránka](https://lide.uhk
 | Číslo | Požadavek                                                                                                                              | Splněno |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | 37    | Projekt je zveřejněn na Internetu, nejlépe na lide.uhk.cz (lze i jinde)                                                                | ✅       |
-| 38    | Minimální požadovaný rozsah je 5 stránek (HTML dokumentů) a 500 slov, povinné prvky jsou tabulka, formulář, fotogalerie a flexbox/grid | ❌       |
-| 39    | Kód HTML i CSS je validní; výstup z validátoru je přiložen do protokolu                                                                | ❌       |
+| 38    | Minimální požadovaný rozsah je 5 stránek (HTML dokumentů) a 500 slov, povinné prvky jsou tabulka, formulář, fotogalerie a flexbox/grid | ✅       |
+| 39    | Kód HTML i CSS je validní; výstup z validátoru je přiložen do protokolu                                                                | ✅       |
 | 40    | Použití jazyka HTML5 a CSS bude splňovat aktuální doporučené postupy (vhodná organizace kódu, oddělení značkování od stylování)        | ✅       |
 | 41    | Web je v patičce zřetelně označen jako studentský zápočtový projekt                                                                    | ✅       |
 | 42    | Projekt není alternativní verzí existujícího webu                                                                                      | ✅       |
