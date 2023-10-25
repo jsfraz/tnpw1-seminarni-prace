@@ -102,7 +102,6 @@ footer a:visited {
 .title {
     font-size: 250%;
     color: #1a2980;
-    text-shadow: 2px 2px white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -192,7 +191,6 @@ footer a:visited {
     text-align: left;
     font-size: 275%;
     color: #1a2980;
-    text-shadow: 2px 2px white;
     margin-left: 30px;
     text-align: center;
 }
@@ -202,7 +200,6 @@ footer a:visited {
     text-align: right;
     font-size: 275%;
     color: #1a2980;
-    text-shadow: 2px 2px white;
     margin-right: 30px;
     text-align: center;
 }
@@ -239,7 +236,6 @@ footer a:visited {
 .title2 {
     font-size: 200%;
     color: #1a2980;
-    text-shadow: 2px 2px white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
